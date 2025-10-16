@@ -11,14 +11,13 @@
             "id": "716e496c1ef1d63a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "valut/English_4ALab/2025_open_1.md",
-                "mode": "source",
-                "source": false
+                "file": "無題のファイル.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "2025_open_1"
+              "icon": "lucide-table",
+              "title": "無題のファイル"
             }
           }
         ]
@@ -180,8 +179,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f0cdf194b453738",
+  "active": "716e496c1ef1d63a",
   "lastOpenFiles": [
+    "valut/English_4ALab/2025_open_1.md",
     "valut/Welcome.md",
     "valut",
     "vault",
