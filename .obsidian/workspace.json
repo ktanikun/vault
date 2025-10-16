@@ -11,10 +11,13 @@
             "id": "716e496c1ef1d63a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新規タブ"
+              "type": "bases",
+              "state": {
+                "file": "無題のファイル.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "無題のファイル"
             }
           }
         ]
@@ -178,6 +181,8 @@
   },
   "active": "716e496c1ef1d63a",
   "lastOpenFiles": [
+    "English_4ALab/2025_toshin_3.md",
+    "English_4ALab/2025_UT.md",
     "無題のファイル.base",
     "test.md"
   ]
