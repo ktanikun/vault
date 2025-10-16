@@ -11,13 +11,14 @@
             "id": "716e496c1ef1d63a",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "無題のファイル.base",
-                "viewName": "Table"
+                "file": "test.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "無題のファイル"
+              "icon": "lucide-file",
+              "title": "test"
             }
           }
         ]
@@ -181,7 +182,7 @@
   },
   "active": "716e496c1ef1d63a",
   "lastOpenFiles": [
-    "test.md",
-    "無題のファイル.base"
+    "無題のファイル.base",
+    "test.md"
   ]
 }
