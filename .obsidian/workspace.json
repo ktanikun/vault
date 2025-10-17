@@ -11,13 +11,14 @@
             "id": "716e496c1ef1d63a",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "無題のファイル.base",
-                "viewName": "Table"
+                "file": "English_4ALab/2025_toshin_2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "無題のファイル"
+              "icon": "lucide-file",
+              "title": "2025_toshin_2"
             }
           }
         ]
@@ -179,14 +180,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "716e496c1ef1d63a",
+  "active": "7f0cdf194b453738",
   "lastOpenFiles": [
+    "APC",
+    "English_4ALab/2025_UT.md",
+    "English_4ALab/2025_toshin_3.md",
+    "無題のファイル.base",
     "valut/English_4ALab/2025_open_1.md",
     "valut/Welcome.md",
     "valut",
     "vault",
     "名称未設定フォルダ",
-    "無題のファイル.base",
     "valut/English_4ALab/2025_toshin_3.md",
     "valut/English_4ALab/2025_UT.md",
     "test.md"
