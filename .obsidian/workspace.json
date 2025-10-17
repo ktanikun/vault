@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,12 +181,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f0cdf194b453738",
+  "active": "716e496c1ef1d63a",
   "lastOpenFiles": [
-    "APC",
-    "English_4ALab/2025_UT.md",
     "English_4ALab/2025_toshin_3.md",
+    "English_4ALab/2025_UT.md",
+    "English_4ALab/2025_toshin_2.md",
+    "English_4ALab/2024_realbattle_2.md",
+    "English_4ALab/2024_UT.md",
+    "English_4ALab/2025_toshin_1.md",
+    "English_4ALab/2025_realbattle_1.md",
+    "English_4ALab/2025_open_1.md",
+    "無題のファイル 1.base",
     "無題のファイル.base",
+    "APC",
     "valut/English_4ALab/2025_open_1.md",
     "valut/Welcome.md",
     "valut",
