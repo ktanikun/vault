@@ -1,3 +1,5 @@
+
+```
 4 (A) 以下の英文の段落(21)~(25)にはそれぞれ誤りがある。修正が必要な下線部を各段落から一つずつ選び、マークシートの(21)~(25)にその記号をマークせよ。
 
 (21) In October of 1858, John Stuart Mill and his wife, Harriet, were traveling near Avignon, France. She (a) developed a cough, which seemed (a) like just a minor inconvenience, (b) until it got worse. (b) Soon Harriet (c) was suffered from great pain, (c) not able to sleep or even lie down. Mill desperately wrote to a doctor in Nice, (d) begging him to come see her. (d) Three days later (e) her condition had worsened further, (e) and Mill telegraphed his fears to his stepdaughter. Harriet died in their hotel room on November 3.
@@ -14,6 +16,7 @@
 stepdaughter 義理の娘
 muse ミューズ(ギリシャ神話における芸術の9人の女神の1人)
 authoritarian 権威主義者
+```
 
 
 
