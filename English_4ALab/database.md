@@ -1149,3 +1149,1535 @@ lures:
     tags: [TENSE_ASPECT]
     expl: 現在完了継続（have occupied）で可。
 ```
+
+# 2024
+
+### (2024_UT Q21)
+```db
+set: 2024_UT
+question: 21
+correct: b
+label: PARALLEL_COMPAR
+sublabels: [CORRELATIVE]
+explanation: **either A or B** が定型。→ “to feel **either** slower **or** faster”。“either … and …” は誤り。
+text:
+  a: anything but constant
+  b: to feel either slower and faster
+  c: have uncovered corresponding findings
+  d: influences our perception of time as it passes
+  e: look at the experience of time in isolation from the body
+ja:
+  a: 「一定どころではない」
+  b: 「**より遅く**または**より速く**感じさせる」
+  c: 「一致する所見を明らかにした」
+  d: 「時の流れ**そのもの**に影響する」
+  e: 「体から切り離して考えることはできない」
+lures:
+  - opt: a
+    tags: [IDIOM_FAKE]
+    expl: anything but + 形容詞＝強い否定で正。
+  - opt: c
+    tags: [LEXICAL_NUANCE]
+    expl: corresponding findings＝文脈適合。
+  - opt: d
+    tags: [CONNECTIVE_SYNTAX]
+    expl: as it passes＝時間の経過を指す挿入で可。
+  - opt: e
+    tags: [PREP_COLLOC]
+    expl: in isolation from ~＝定型。
+```
+
+---
+
+### (2024_UT Q22)
+```db
+set: 2024_UT
+question: 22
+correct: e
+label: VOICE_PASSIVE
+sublabels: [FINITE_VERB]
+explanation: 受動の **be** が必要。→ “One item … **was** presented for 200 milliseconds”。並列でlastedは能動態なので注意。
+text:
+  a: reported that time perception changes
+  b: with each heartbeat
+  c: learned to distinguish the duration of
+  d: two visual or two auditory stimuli
+  e: One item … **presented** for 200 milliseconds
+ja:
+  a: 「時間知覚が変化すると報告した」
+  b: 「各心拍ごとに」
+  c: 「持続時間の**識別**を学習した」
+  d: 「視覚刺激2つ**または**聴覚刺激2つ」
+  e: 「各ペアの一方は**200ms提示された**」（be なしは×）
+lures:
+  - opt: a
+    tags: [TENSE_ASPECT]
+    expl: reported that + 一般現在（通時的事実）＝可。
+  - opt: b
+    tags: [PREP_COLLOC]
+    expl: with each heartbeat＝可。
+  - opt: c
+    tags: [VERB_VALENCY]
+    expl: distinguish the duration of …＝可。
+  - opt: d
+    tags: [PARALLEL_COMPAR]
+    expl: two A **or** two B の並列＝可。
+```
+
+---
+
+### (2024_UT Q23)
+```db
+set: 2024_UT
+question: 23
+correct: a
+label: CONNECTIVE_SYNTAX
+sublabels: [INDIRECT_QUESTION]
+explanation: 間接疑問は “**whether** it felt shorter or longer / **how long** it felt”。“how the presentation felt shorter or longer” は型崩れ。
+text:
+  a: how the presentation felt shorter or longer
+  b: matched with a particular moment
+  c: during the heartbeat
+  d: perceived time duration to be shorter than it actually was
+  e: the exact opposite was true
+ja:
+  a: 「提示が**短く感じたか長く感じたか**を」（how ではなく whether / how long）
+  b: 「心拍リズムの特定の瞬間に**対応づけられた**」
+  c: 「心拍**の間に**」
+  d: 「**実際より短いと**知覚した」
+  e: 「拡張期では**まったく逆**だった」
+lures:
+  - opt: b
+    tags: [VERB_VALENCY]
+    expl: match A with B＝可。
+  - opt: c
+    tags: [PREP_COLLOC]
+    expl: during the heartbeat＝可。
+  - opt: d
+    tags: [WORD_ORDER]
+    expl: perceive (the) duration to be … は許容。
+  - opt: e
+    tags: [DISCOURSE_LOGIC]
+    expl: 対比句として自然。
+```
+
+---
+
+### (2024_UT Q24)
+```db
+set: 2024_UT
+question: 24
+correct: e
+label: CONTENT_REVERSE
+sublabels: []
+explanation: コーネル結果は「**間隔が長いほど時間は遅く感じる**」。本文 e は「間隔が長い → 速く動く」と逆極性。
+text:
+  a: explained by the fact that
+  b: affect its capacity to process incoming information
+  c: This increase in sensory impressions could make time feel longer.
+  d: focused on differences … between single heartbeats
+  e: When there is more time between two beats, time seems to move faster.
+ja:
+  a: 「〜という事実で説明されうる」
+  b: 「脳の**処理能力**に影響する」
+  c: 「感覚入力の増加で**長く感じる**可能性」
+  d: 「**心拍間**の差異に注目した」
+  e: 「**拍間が長いほど**時間は**速く**進む」（×）→ **遅く感じる**
+lures:
+  - opt: a
+    tags: [CONNECTIVE_SYNTAX]
+    expl: explained by the fact that …＝可。
+  - opt: b
+    tags: [PRON_REF]
+    expl: its＝the brain の照応で可。
+  - opt: c
+    tags: [DISCOURSE_LOGIC]
+    expl: 直前の説明と整合して可。
+  - opt: d
+    tags: [PREP_COLLOC]
+    expl: differences **between** A **and** B／ここは単位 “between single heartbeats” で可。
+```
+
+---
+
+### (2024_UT Q25)
+```db
+set: 2024_UT
+question: 25
+correct: e
+label: PARALLEL_COMPAR
+sublabels: [AS_AS]
+explanation: 比較構文は **as A as B**。→ “something **as fundamental as** the passage of time”。“similarly fundamental as” は不適切。
+text:
+  a: including our emotion and attention
+  b: at a totally different scale
+  c: of growing interest in neuroscience
+  d: comfortable with the idea that the brain can influence what the heart does
+  e: something **similarly fundamental as** the passage of time
+ja:
+  a: 「感情・注意**など**を含む」
+  b: 「まったく**別の尺度**で起きる」
+  c: 「神経科学で**関心が高まりつつある**」
+  d: 「脳が心臓に影響しうるという考えに**抵抗がない**」
+  e: 「時間の経過と**同じくらい根源的な**もの」（構文×）
+lures:
+  - opt: a
+    tags: [NOUN_CHOICE]
+    expl: emotion/attention は不可算扱いで可。
+  - opt: b
+    tags: [LEXICAL_NUANCE]
+    expl: at a different scale＝可。
+  - opt: c
+    tags: [PREP_COLLOC]
+    expl: of growing interest in …＝可。
+  - opt: d
+    tags: [CLAUSAL_COMP]
+    expl: the idea **that** S V の名詞節＝可。
+```
+
+### (2024_pre_1 Q21)
+```db
+set: 2024_pre_1
+question: 21
+correct: b
+label: VERB_VALENCY
+sublabels: [PREP_COLLOC]
+explanation: “tactics **used to fight** / **used for fighting** wildfires”。“used **to fighting**”＝「〜に慣れている」の誤転用。againstとかはいらない。
+text:
+  a: carelessly discarded cigarettes
+  b: used to fighting wildfires
+  c: have changed little in recent decades
+  d: to try to dampen the flames
+  e: fire lines that the conflagration cannot cross
+ja:
+  a: 不注意に捨てられたタバコ
+  b: 山火事を**消火するために用いられる**戦術（× 戦い**慣れている**）
+  c: 近年ほとんど変わっていない
+  d: 炎を弱めようとする
+  e: 火勢が越えられない防火帯
+lures:
+  - opt: a
+    tags: [ADV_ADJ_FORM]
+    expl: 副詞＋分詞形容詞で可。
+  - opt: c
+    tags: [TENSE_ASPECT]
+    expl: 一般現在の事実叙述で可。
+  - opt: d
+    tags: [LEXICAL_NUANCE]
+    expl: dampen the flames＝自然。
+  - opt: e
+    tags: [REL_PRONOUN]
+    expl: 関係節 that … cannot cross は適切。
+```
+
+---
+
+### (2024_pre_1 Q22)
+```db
+set: 2024_pre_1
+question: 22
+correct: c
+label: ADV_ADJ_FORM
+sublabels: []
+explanation: 定型は “get **near** enough to V”。“get **nearly** enough to …” は名詞補完なしで不自然。
+text:
+  a: too much energy to be fought
+  b: before it reaches the flames
+  c: impossible to get nearly enough to contain the blaze
+  d: little to do but wait
+  e: that might make the fire controllable
+ja:
+  a: （意味上やや不自然だが決定的誤りではない）
+  b: それが炎に届く前に
+  c: **十分近づくことが不可能**（near が要る／nearly は不可）
+  d: **待つしかほとんどやることがない**
+  e: 火を**再び制御可能**にするかもしれない
+lures:
+  - opt: a
+    tags: [LEXICAL_NUANCE]
+    expl: fires are too energetic to be fought なら自然。
+  - opt: b
+    tags: [PREP_COLLOC]
+    expl: reach＋目的語（前置詞不要）で正。
+  - opt: d
+    tags: [IDIOM_FAKE]
+    expl: little to do but V＝定型。
+  - opt: e
+    tags: [LEXICAL_NUANCE]
+    expl: make A controllable＝可。
+```
+
+---
+
+### (2024_pre_1 Q23)
+```db
+set: 2024_pre_1
+question: 23
+correct: d
+label: REL_PRONOUN
+sublabels: []
+explanation: 非制限用法は **which**。コンマ後 “, **which** was the worst year …”。“, that …” は不可。
+text:
+  a: no longer seems sufficient
+  b: that become large and difficult to contain
+  c: those that do get big
+  d: that was the worst year
+  e: in places already prone to burning
+ja:
+  a: もはや十分とは思えない
+  b: 大規模化して制御困難になる
+  c: 実際に大きくなるものは
+  d: **それは**最悪の年だった（×）→ **which was** …
+  e: もともと燃えやすい地域で
+lures:
+  - opt: a
+    tags: [CONTENT_DRIFT]
+    expl: 文脈整合。逆ではない。
+  - opt: b
+    tags: [REL_PRONOUN]
+    expl: 制限用法 that 節＝可。
+  - opt: c
+    tags: [PARALLEL_COMPAR]
+    expl: those that … の対照提示＝可。
+  - opt: e
+    tags: [WORD_ORDER]
+    expl: already の位置は自然。
+```
+
+---
+
+### (2024_pre_1 Q24)
+```db
+set: 2024_pre_1
+question: 24
+correct: e
+label: VOICE_PASSIVE
+sublabels: []
+explanation: “all conflagrations **could, and should, be extinguished**” が正。be 欠落で能動化。
+text:
+  a: is increasingly being questioned
+  b: results in greater stores of unburned fuel
+  c: allowed smaller wildfires to burn
+  d: created the illusion that
+  e: could, and should, extinguish
+ja:
+  a: 鎮火政策は**ますます疑問視**されている
+  b: **未燃の燃料がたまりやすく**なる
+  c: **小規模火災をそのまま燃やす**こともあった
+  d: 技術が「**すべての大火は**…でき／すべきだ」という**幻想を生んだ**
+  e: 「**消火されうる／されるべき**」（× 自動）
+lures:
+  - opt: a
+    tags: [TENSE_ASPECT]
+    expl: 進行形受動＝可。
+  - opt: b
+    tags: [VERB_VALENCY]
+    expl: result in＝定型。
+  - opt: c
+    tags: [LEXICAL_NUANCE]
+    expl: allow A to burn＝可。
+  - opt: d
+    tags: [CONNECTIVE_SYNTAX]
+    expl: illusion that S V＝可。
+```
+
+---
+
+### (2024_pre_1 Q25)
+```db
+set: 2024_pre_1
+question: 25
+correct: e
+label: TENSE_ASPECT
+sublabels: []
+explanation: “since（それ以来）” は**現在完了**が原則 → “Portugal **has not suffered** a disastrous blaze since.”
+text:
+  a: a shift from suppressing to managing
+  b: breaks that fires cannot cross
+  c: the deadliest in its history
+  d: when they can be controlled
+  e: had not suffered a disastrous blaze since
+ja:
+  a: **消火から管理への**転換
+  b: 火が**越えられない遮断帯**
+  c: **史上最悪**
+  d: **冬には**それらが**制御可能**なとき
+  e: それ以来**壊滅的な火災を被っていない**（× 過去完了）
+lures:
+  - opt: a
+    tags: [PARALLEL_COMPAR]
+    expl: from A to B＝並列整合。
+  - opt: b
+    tags: [REL_PRONOUN]
+    expl: that … cannot cross＝可。
+  - opt: c
+    tags: [LEXICAL_NUANCE]
+    expl: 自然。
+  - opt: d
+    tags: [CONNECTIVE_SYNTAX]
+    expl: when（時間の関係詞）＝可。
+```
+
+### (2024_open_1 Q21)
+```db
+set: 2024_open_1
+question: 21
+correct: b
+label: REL_PRONOUN
+sublabels: [PRON_REF]
+explanation: 関係節で目的語 it を再出しない。→ “… environments **(that) we have created** for ourselves”。
+text:
+  a: getting in the way of listening
+  b: we have created it
+  c: with few walls
+  d: contributes to
+  e: much less pay full attention
+ja:
+  a: 「聞くことを妨げている」
+  b: 「私たちが**作り上げた**（× it）」
+  c: 「壁が**ほとんどない**」
+  d: 「〜に拍車をかける」
+  e: 「（Xするのも難しい）**まして**Yはなおさら」
+lures:
+  - opt: a
+    tags: [IDIOM_FAKE]
+    expl: get in the way of ~ は正しい慣用。
+  - opt: c
+    tags: [LEXICAL_NUANCE]
+    expl: with + 名詞列＝付帯状況で可。
+  - opt: d
+    tags: [SVA_AGREEMENT]
+    expl: “every A, B, and C”→単数扱いで contributes。
+  - opt: e
+    tags: [CONNECTIVE_SYNTAX]
+    expl: hard to X, much less Y＝定型。
+```
+
+---
+
+### (2024_open_1 Q22)
+```db
+set: 2024_open_1
+question: 22
+correct: a
+label: CONTENT_REVERSE
+sublabels: []
+explanation: 文脈は「静かな会話は**難しい**」。→ “is even **less** likely / harder”。“more likely” は逆。
+text:
+  a: is even more likely
+  b: have sound levels that exceed 90 decibels
+  c: you can't go to a coffee shop
+  d: which even at low levels divides attention
+  e: more prone to unplanned purchases
+ja:
+  a: 「いっそう**起こりやすい**」（×）
+  b: 「90dB**超**」
+  c: 「BGMなしでは済まない」
+  d: 「低音量でも**注意を分散**」
+  e: 「**衝動買いしやすい**」
+lures:
+  - opt: b
+    tags: [CONTENT_DRIFT]
+    expl: 事実強調だが文法上正。
+  - opt: c
+    tags: [CONNECTIVE_SYNTAX]
+    expl: can’t … without … は定型。
+  - opt: d
+    tags: [SVA_AGREEMENT, PARALLEL_COMPAR]
+    expl: music→単数で divides／後続 makes と並列。
+  - opt: e
+    tags: [WORD_CHOICE]
+    expl: prone to -ing＝定型。
+```
+
+---
+
+### (2024_open_1 Q23)
+```db
+set: 2024_open_1
+question: 23
+correct: e
+label: VERB_VALENCY
+sublabels: []
+explanation: shows that 節は完全文。→ “you **cannot**”。“you cannot **be**” は補語欠落。cannot do so. とかならよい. そもそもbe動詞は前の文にない.
+text:
+  a: haven't made their homes refuges from noise
+  b: are almost always on
+  c: some form of sound system
+  d: listen closely to a family member or friend
+  e: shows that you cannot be
+ja:
+  a: 「家を**静けさの避難所にしていない**」
+  b: 「テレビは**ほぼ常時**オン」
+  c: 「**何らかの**音響設備」
+  d: 「家族や友人に**注意深く**耳を傾ける」
+  e: 「研究は**〜できない**と示す（× be）」
+lures:
+  - opt: a
+    tags: [VERB_VALENCY]
+    expl: make A B 構文＝可。
+  - opt: b
+    tags: [ASPECT]
+    expl: 一般現在で可。
+  - opt: c
+    tags: [ARTICLE_DET]
+    expl: some form of + 単数＝可。
+  - opt: d
+    tags: [LEXICAL_NUANCE]
+    expl: listen closely to〜＝可。
+```
+
+---
+
+### (2024_open_1 Q24)
+```db
+set: 2024_open_1
+question: 24
+correct: d
+label: PARALLEL_COMPAR
+sublabels: [CONNECTIVE_SYNTAX]
+explanation: **as much about A as B** が正。本文は “as much **as about** …” の語順誤り。
+text:
+  a: dispose of a limited budget of attention
+  b: try to go beyond your budget
+  c: that you must cultivate the right environment
+  d: which is as much as about a receptive physical space as a receptive state of mind
+  e: freedom from interruption
+ja:
+  a: 「注意という**限られた予算**を持つ」
+  b: 「予算を**超えよう**とすれば失敗する」
+  c: 「**適切な環境を整え**るべき」
+  d: 「（聞くことは）**物理的空間**についてと同じくらい**心の状態**についてのもの（語順×）」
+  e: 「**中断のない自由**」
+lures:
+  - opt: a
+    tags: [LEXICAL_NUANCE, ANXIETY_CUE]
+    expl: dispose of＝“have at one’s disposal” の意で可。
+  - opt: b
+    tags: [WORD_CHOICE]
+    expl: go beyond your budget＝自然。
+  - opt: c
+    tags: [CONNECTIVE_SYNTAX]
+    expl: All this is to say that …＝定型。
+  - opt: e
+    tags: [NOUN_PHRASE]
+    expl: freedom from + 名詞＝定型。
+```
+
+---
+
+### (2024_open_1 Q25)
+```db
+set: 2024_open_1
+question: 25
+correct: d
+label: CONNECTIVE_SYNTAX
+sublabels: [PARALLEL_COMPAR]
+explanation: 条件・二択明示が必要。→ “**Whether** the conversation is about business **or** more personal matters, …”（または “**Even if** the conversation is brief, …”）。本文 “Even the conversation …” は接続不全。
+text:
+  a: It’s not that you can only effectively interact with people in soundproof spaces.
+  b: keep it out of sight
+  c: your willingness to listen to what someone has to say
+  d: Even the conversation is brief
+  e: a better opportunity to connect
+ja:
+  a: 「**防音室でしか**交流できないわけではない」
+  b: 「それ（スマホ）を**視界から外す**」
+  c: 「相手の**言いたいこと**に耳を傾ける意思」
+  d: 「**会話が仕事か私事かにかかわらず**（Whether … or …）／**たとえ短くても**（Even if …）」
+  e: 「**つながる好機**を作る」
+lures:
+  - opt: a
+    tags: [WORD_ORDER]
+    expl: It’s not that S V…＝定型。
+  - opt: b
+    tags: [LEXICAL_NUANCE]
+    expl: keep A out of sight＝定型。
+  - opt: c
+    tags: [IDIOM_FAKE]
+    expl: what someone has to say＝“言いたいこと”。意味混乱を誘うが正。
+  - opt: e
+    tags: [NOUN_PHRASE]
+    expl: a better opportunity to V＝自然。
+```
+
+### (2024_toshin_3 Q21)
+```db
+set: 2024_toshin_3
+question: 21
+correct: d
+label: PREP_COLLOC
+sublabels: [LEXICAL_NUANCE]
+explanation: “perceive A **as** B” は可だが，*fashion* と組む定型は **in a … fashion**。→ “was perceived **in** a rather linear fashion.”
+text:
+  a: have long considered ourselves
+  b: due to our exceptional cognitive capabilities
+  c: that have enabled us to reach space,
+  d: was perceived as a rather linear fashion
+  e: like those of bright individuals like Albert Einstein
+ja:
+  a: 私たちは長らく自分たちを最も賢い種だと考えてきた
+  b: 卓越した認知能力と言語使用のために
+  c: それらの能力が宇宙到達などを可能にした
+  d: 知能は**かなり直線的な様式**で理解**された**（前置詞×）
+  e: たとえばアインシュタインのような才人の能力のようなもの
+lures:
+  - opt: a
+    tags: [REFLEXIVE, VERB_VALENCY]
+    expl: consider oneself … は正用。
+  - opt: b
+    tags: [PREP_COLLOC]
+    expl: due to + 名詞句＝可。
+  - opt: c
+    tags: [REL_PRONOUN]
+    expl: 強調構文部（that）は問題なし。
+  - opt: e
+    tags: [LEXICAL_NUANCE, ANXIETY_CUE]
+    expl: like … like の反復は冗長だが文法×ではない。
+```
+
+---
+
+### (2024_toshin_3 Q22)
+```db
+set: 2024_toshin_3
+question: 22
+correct: e
+label: CONTENT_REVERSE
+sublabels: []
+explanation: 各知能は**環境や実践に適合した**課題を解く文脈。irrelevant は極性逆。→ **relevant to** / **suited to**。
+text:
+  a: is now understood to be far more varied and intricate.
+  b: acknowledges multiple intelligences besides the logical-mathematical type,
+  c: which dancers and surgeons exhibit,
+  d: which is seen in composers and musicians.
+  e: problems **irrelevant to** their specific environments and practices.
+ja:
+  a: 今やはるかに多様で複雑だと理解されている
+  b: 論理数学型以外の多重知能を認める
+  c: ダンサーや外科医が示す（身体運動感覚）
+  d: 作曲家や音楽家に見られる（音楽的）
+  e: それぞれの環境・実践に**無関係な**問題（×）→ **関係する**問題
+lures:
+  - opt: a
+    tags: [TENSE_ASPECT]
+    expl: is understood to be … は可。
+  - opt: b
+    tags: [PARALLEL_COMPAR]
+    expl: besides A, such as B … は可。
+  - opt: c
+    tags: [REL_PRONOUN]
+    expl: which + 動詞＝可。
+  - opt: d
+    tags: [REL_PRONOUN]
+    expl: which is seen in …＝可。
+```
+
+---
+
+### (2024_toshin_3 Q23)
+```db
+set: 2024_toshin_3
+question: 23
+correct: b
+label: IDIOM_FAKE
+sublabels: [PARALLEL_COMPAR]
+explanation: 比較構文の型が崩れている。“predict **better than** health outcomes” は偽定型。→ “predict **better health** outcomes” / “predict X **better than** Y”。
+text:
+  a: the capacity for intelligence in other species.
+  b: whether enhanced cognitive abilities can predict **better than** health outcomes
+  c: that is adopting broader definitions of intelligence:
+  d: an interesting result of thinking about intelligence
+  e: we can attribute intelligence broadly across a group of individuals,
+ja:
+  a: 他種における知能の可能性
+  b: 強化された認知能力が**より良い健康転帰を予測できるか**／Xよりうまく予測できるか（構文直し要）
+  c: 知能の定義拡張を採用しているという動き
+  d: そう考えることの興味深い帰結
+  e: 個人ではなく**集団**全体に広く知能を帰属しうる
+lures:
+  - opt: a
+    tags: [PREP_COLLOC]
+    expl: capacity **for** は定型。
+  - opt: c
+    tags: [REL_PRONOUN]
+    expl: that is adopting …（現在進行の記述）可。
+  - opt: d
+    tags: [LEXICAL_NUANCE]
+    expl: 名詞句として自然。
+  - opt: e
+    tags: [CONNECTIVE_SYNTAX]
+    expl: means (that) … の that 省略は可。
+```
+
+---
+
+### (2024_toshin_3 Q24)
+```db
+set: 2024_toshin_3
+question: 24
+correct: d
+label: CONNECTIVE_SYNTAX
+sublabels: [DISCOURSE_MARKER]
+explanation: **meanwhile** は独立副詞（場面転換）。対比従属には **while/whereas/although** が必要。→ “… **while** we would not expect …”
+text:
+  a: which was coined by some researchers
+  b: are not indicative of individual intelligence.
+  c: from a complex interplay of interactions
+  d: **meanwhile** we would not expect a hive of bees to conceptualize
+  e: tuned to ensure their survival and success
+ja:
+  a: 一部研究者により**提唱された**用語
+  b: それらは**個体知能の指標ではない**
+  c: 集団内の**複雑な相互作用**から生じる
+  d: **その一方で**ハチの群れが月探査計画を構想することはない（接続語×）
+  e: 生存と成功を**確保するよう**精緻に調整されている
+lures:
+  - opt: a
+    tags: [LEXICAL_NUANCE]
+    expl: coin a term は定型。
+  - opt: b
+    tags: [WORD_CHOICE]
+    expl: be indicative of … は可。
+  - opt: c
+    tags: [REDUNDANCY]
+    expl: “interplay of interactions” は冗語だが文法×ではない。
+  - opt: e
+    tags: [VERB_VALENCY]
+    expl: be tuned to V は可。
+```
+
+---
+
+### (2024_toshin_3 Q25)
+```db
+set: 2024_toshin_3
+question: 25
+correct: c
+label: CONNECTIVE_SYNTAX
+sublabels: [COMPLEMENTIZER]
+explanation: discover の内容節は **that** 節が基本。“have discovered **that** human brains synchronize …”。× “discovered **what** human brains synchronize …”
+text:
+  a: at both individual and collective levels.
+  b: moving towards understanding the neural basis
+  c: neuroscientists have discovered **what** human brains synchronize with one another
+  d: the extent **to which** such neural synchronization plays a role
+  e: remains an open question for future research.
+ja:
+  a: 個体レベルと集団レベルの両方で
+  b: 個人中心から離れ**群知能の神経基盤**の理解へ
+  c: 脳は協力時に**同期することを発見した**（**that** が必要）
+  d: その同期がどの程度役割を果たすかという**程度構文**
+  e: それは今後の研究に残された**未解決の問題**である
+lures:
+  - opt: a
+    tags: [PREP_COLLOC]
+    expl: at both A and B＝可。
+  - opt: b
+    tags: [NOMINALIZATION]
+    expl: move towards understanding … は可。
+  - opt: d
+    tags: [REL_PRONOUN]
+    expl: extent **to which** … は定型。
+  - opt: e
+    tags: [TENSE_ASPECT]
+    expl: remains＝現在時制の一般叙述で可。
+```
+
+### (2024_open_2 Q21)
+```db
+set: 2024_open_2
+question: 21
+correct: e
+label: IDIOM_FAKE
+sublabels: [PREP_COLLOC]
+explanation: 成句は **make sense of ~**。× *make their sense of ~*。
+text:
+  a: a remark made by her two-year-old son
+  b: in some ways babies could take the perspectives of other people
+  c: is described as theory of mind
+  d: that other people have their own minds and preferences
+  e: children make their sense of the world
+ja:
+  a: ２歳の息子の発言
+  b: 乳児は場合により他者の視点を取れる
+  c: その能力は「心の理論」と呼ばれる
+  d: 他者には独自の心と好みがあるという理解
+  e: 子どもは**世界を理解する（make sense of the world）**
+lures:
+  - opt: a
+    tags: [LEXICAL_NUANCE, ANXIETY_CUE]
+    expl: form/gain insight from … は可。
+  - opt: b
+    tags: [VERB_VALENCY]
+    expl: take the perspective(s) of … 可。
+  - opt: c
+    tags: [ARTICLE_DET]
+    expl: describe A as **“theory of mind”**（固有名扱い）可。冠詞付与は不要。
+  - opt: d
+    tags: [CONNECTIVE_SYNTAX]
+    expl: appreciation **that** SV 構文は可。
+```
+
+---
+
+### (2024_open_2 Q22)
+```db
+set: 2024_open_2
+question: 22
+correct: d
+label: CONNECTIVE_SYNTAX
+sublabels: [TENSE_ASPECT]
+explanation: 時間関係は **didn’t … until ~**。× *since they were about seven*。
+text:
+  a: sees babies as different
+  b: more alert to their surroundings than grown-ups and more active learners than scientists
+  c: They are designed to learn about the world …
+  d: didn’t develop the ability … since they were about seven years old
+  e: how to demonstrate that babies have this skill
+ja:
+  a: 乳児を「異なる存在」と見る
+  b: 大人より敏感で，科学者より能動的学習者
+  c: 世界について学ぶよう“設計”されている
+  d: この能力は**７歳まで**発達しない（until が要る）
+  e: 乳児にこの技能があることをどう示すか
+lures:
+  - opt: a
+    tags: [LEXICAL_NUANCE, ANXIETY_CUE]
+    expl: see A as **different**（from 省略可）。
+  - opt: b
+    tags: [PARALLEL_COMPAR]
+    expl: than〜 and more … than … の並列は正。
+  - opt: c
+    tags: [CONTENT_DRIFT]
+    expl: 目的論的比喩だが文法上は可。
+  - opt: e
+    tags: [VERB_VALENCY]
+    expl: know **how to** V / demonstrate **that** … は可。
+```
+
+---
+
+### (2024_open_2 Q23)
+```db
+set: 2024_open_2
+question: 23
+correct: a
+label: CONNECTIVE_SYNTAX
+sublabels: [WORD_ORDER, SVA_AGREEMENT]
+explanation: 叙述転換の倒置 **Then came a fateful day …**。× *came to a fateful day*（to 余分／VS倒置が崩れる）。
+text:
+  a: came to a fateful day when
+  b: made a fancy dessert
+  c: had a taste of it
+  d: for weeks afterward, … say;
+  e: turned her son's comment into an experiment
+ja:
+  a: **その後，運命の日がやって来た**（when … hosting）
+  b: 凝ったデザートを作った
+  c: それを味見した
+  d: その後数週間，突然こう言った；
+  e: 発言を実験「ブロッコリーと金魚クラッカー」に転用した
+lures:
+  - opt: b
+    tags: [WORD_CHOICE]
+    expl: make a dessert＝可。
+  - opt: c
+    tags: [PREP_COLLOC]
+    expl: have a taste **of** it＝可。
+  - opt: d
+    tags: [CONNECTIVE_SYNTAX, ANXIETY_CUE]
+    expl: 句読点の揺れは採点点ではない。
+  - opt: e
+    tags: [LEXICAL_NUANCE]
+    expl: turn A into B＝可。
+```
+
+---
+
+### (2024_open_2 Q24)
+```db
+set: 2024_open_2
+question: 24
+correct: c
+label: SVA_AGREEMENT
+sublabels: []
+explanation: **each of + 複数名詞**。→ each of the **bowls**。
+text:
+  a: had them try some of each
+  b: They all liked the crackers more than the broccoli.
+  c: took a bit of food from each of the bowl
+  d: made either a disgusted face or a happy face
+  e: the other half of the time it was reversed
+ja:
+  a: それぞれを少しずつ**食べさせた**（have + O + V）
+  b: 皆が**クラッカーのほうを**好んだ
+  c: **各ボウル**から少量を取った（単数×）
+  d: **嫌悪/満足**の表情を作った
+  e: 残り半分は**逆パターン**にした
+lures:
+  - opt: a
+    tags: [VERB_VALENCY, CAUSATIVE_BARE_V]
+    expl: have + O + V（to 付けない）で正。
+  - opt: b
+    tags: [ARTICLE_DET]
+    expl: the broccoli は対比用法で可。
+  - opt: d
+    tags: [IDIOM_FAKE]
+    expl: make a … face は定型。
+  - opt: e
+    tags: [CONNECTIVE_SYNTAX]
+    expl: the other half of the time … は自然。
+```
+
+---
+
+### (2024_open_2 Q25)
+```db
+set: 2024_open_2
+question: 25
+correct: d
+label: CONTENT_REVERSE
+sublabels: [PARALLEL_COMPAR]
+explanation: 18か月児は**共感を示す**が14か月児は**示さない**。× “but also fourteen-month-olds”。
+text:
+  a: put her hand out to the baby and ask for some food
+  b: not the crackers that they liked
+  c: just got confused … then they offered the crackers
+  d: but also fourteen-month-olds
+  e: opened the way for psychologists to make discoveries
+ja:
+  a: 手を差し出し**食べ物を求めた**
+  b: **自分らの好むクラッカーではなく**
+  c: 14か月児は**混乱**し，結局クラッカーを差し出した
+  d: **14か月児もまた**（×）→ **14か月児はそうではない**
+  e: こうした実験が**研究の道を開いた**
+lures:
+  - opt: a
+    tags: [VERB_VALENCY]
+    expl: ask **for** some food＝可。
+  - opt: b
+    tags: [WORD_ORDER]
+    expl: not A（自分の好み） but B（相手の好み）対比の一部で可。
+  - opt: c
+    tags: [CONNECTIVE_SYNTAX]
+    expl: when … and then … の連結は可。
+  - opt: e
+    tags: [IDIOM_FAKE]
+    expl: open/pave the way **for 人 to V**＝定型（本文は可）。
+```
+
+### (2024_realbattle_2 Q21)
+```db
+set: 2024_realbattle_2
+question: 21
+correct: b
+label: CLAUSE_SYNTAX
+sublabels: [REL_CLAUSE, MODAL_MISUSE]
+explanation: 先行詞 *an empty bottle* を受ける関係節は **that experience must fill** が自然。× *that can experience must fill*（can の余計な情態で構文破綻）。
+text:
+  a: for millennia
+  b: an empty bottle **that can experience must fill**
+  c: rejecting the idea
+  d: devoid of any
+  e: the organ by which we acquire instruction
+ja:
+  b: 「経験が満たすべき**空の瓶**」＝**that experience must fill**
+lures:
+  - opt: a — tags: [TIME_PP] — expl: for millennia は定型。OK。
+  - opt: c — tags: [VERB_PATTERN] — expl: reject + the idea that … でOK。
+  - opt: d — tags: [PREP_COLLOC] — expl: devoid **of** any knowledge は定型。
+  - opt: e — tags: [REL_PRONOUN] — expl: the organ **by which** … は硬いが文法上OK。
+```
+
+---
+
+### (2024_realbattle_2 Q22)
+```db
+set: 2024_realbattle_2
+question: 22
+correct: d
+label: CONTENT_REVERSE
+sublabels: [LOGIC]
+explanation: 趣旨は「どちらか一方ではなく**両方が必要**」。→ **we have underestimated both** が筋。*overestimated* は論旨逆。
+text:
+  a: comes equipped with two features:
+  b: settings to choose **from**
+  c: adjust those settings according to the data
+  d: we **have overestimated** both.
+  e: an immense set of potential models …
+ja:
+  d: 「両方を**過小評価**してきた」が文脈筋。
+lures:
+  - opt: a — tags: [VERB_PATTERN] — expl: come equipped with … は定型。
+  - opt: b — tags: [PREP_COLLOC] — expl: choose **from** は定型。OK。
+  - opt: c — tags: [PREP_COLLOC] — expl: according **to** は定型。
+  - opt: e — tags: [ARTICLE_DET] — expl: an immense set of … は自然。
+```
+
+---
+
+### (2024_realbattle_2 Q23)
+```db
+set: 2024_realbattle_2
+question: 23
+correct: a
+label: IDIOM_FAKE
+sublabels: [PREP_COLLOC]
+explanation: 慣用は **in** their own way。× *on their own way*。
+text:
+  a: do this **on** their own way
+  b: entrusting the representation **of** mental models **to** millions of adjustable connections
+  c: while capturing the rapid and unconscious recognition …
+  d: more concrete hypotheses
+  e: the logic of mathematical operations
+ja:
+  a: 「**自分たちなりのやり方で**」＝**in** their own way
+lures:
+  - opt: b — tags: [PREP_COLLOC] — expl: representation **of** A / entrust A **to** B は定型。OK。
+  - opt: c — tags: [MODIFIER] — expl: rapid が recognition を修飾。OK。
+  - opt: d — tags: [WORD_CHOICE] — expl: more concrete hypotheses は自然。
+  - opt: e — tags: [ARTICLE_USE] — expl: the logic of … は文脈許容。
+```
+
+---
+
+### (2024_realbattle_2 Q24)
+```db
+set: 2024_realbattle_2
+question: 24
+correct: e
+label: SVA_AGREEMENT
+sublabels: [COORDINATION]
+explanation: **collect … and use them** と同形並列に。× *collect … and using them*（非並行）。
+text:
+  a: grows through the combination of symbols
+  b: This "language of thought",
+  c: is already in place prior to learning
+  d: to be put to the test
+  e: collect statistical data **and using** them …
+ja:
+  e: 「統計データを**集め**，それを**用いる**」＝**collect … and use them**
+lures:
+  - opt: a — tags: [NOUN_PHRASE] — expl: the combination of … は可。
+  - opt: b — tags: [APPOSITIVE] — expl: 挿入同格は可。
+  - opt: c — tags: [IDIOM_REAL] — expl: in place（整っている）は可。不安だがOK。
+  - opt: d — tags: [INFINITIVE_PASSIVE] — expl: to be put to the test は定型。
+```
+
+---
+
+### (2024_realbattle_2 Q25)
+```db
+set: 2024_realbattle_2
+question: 25
+correct: e
+label: PRON_REF
+sublabels: [NUMBER_AGREEMENT]
+explanation: 直前の複数 *probabilities* を受ける代名詞は **them**。× *update **it***。
+text:
+  a: contains all the languages …
+  b: in addition to …
+  c: The combinational analyses of the brain **are** such that …
+  d: their respective preexisting probabilities
+  e: the ability to update **it**
+ja:
+  e: 「その確率**それら**を更新する能力」＝**update them**
+lures:
+  - opt: a — tags: [MODAL_SEMANTICS] — expl: 可能性の誇張表現で文法上はOK。
+  - opt: b — tags: [CONNECTIVE] — expl: in addition to … は可。
+  - opt: c — tags: [SVA_AGREEMENT] — expl: analyses（複）→ **are** で一致。OK。
+  - opt: d — tags: [ADJ_ORDER] — expl: respective / preexisting の並置は可。
+```
+
+
+
+### (2024_pre_2 Q21)
+```db
+set: 2024_pre_2
+question: 21
+correct: d
+label: PARALLEL_COMPAR
+sublabels: [CONNECTIVE_SYNTAX]
+explanation: “Just as …, so …” が正。“as” は不可。
+text:
+  a: allowing errors to go undetected could be much costlier
+  b: It's not just private technology companies that invest
+  c: who found weaknesses in its networks
+  d: Just as many industries devote hefty funding to incentivizing people to find and report bugs and glitches, as the science community should reward the detection and correction of errors in the scientific literature
+  e: the costs of undetected errors are staggering
+lures:
+  - opt: a
+    tags: [WORD_CHOICE]
+    expl: costlier＝可。moreに直す不要。
+  - opt: b
+    tags: [WORD_ORDER, ANXIETY_CUE]
+    expl: “It’s not just … that …”＝可。invest in＝定型。
+  - opt: c
+    tags: [TENSE_ASPECT]
+    expl: found は過去範囲に一致。
+  - opt: e
+    tags: [LEXICAL_NUANCE]
+    expl: staggering は自然。
+```
+
+---
+
+### (2024_pre_2 Q22)
+```db
+set: 2024_pre_2
+question: 22
+correct: a
+label: CONNECTIVE_SYNTAX
+sublabels: [CONTENT_DRIFT]
+explanation: “That’s why …” が適切。“That’s because …” は因果の型が違う。
+text:
+  a: That's because I have joined
+  b: pays specialists to check highly cited published papers
+  c: for each paper they check
+  d: the greater the reward
+  e: to cover the work needed to
+lures:
+  - opt: b
+    tags: [DANGLING_MOD, ANXIETY_CUE]
+    expl: starting with … は許容の分詞句。
+  - opt: c
+    tags: [PREP_COLLOC]
+    expl: for each＝定型。perへの置換不要。
+  - opt: d
+    tags: [PARALLEL_COMPAR]
+    expl: “The … the …” 相関比較＝正。
+  - opt: e
+    tags: [PARALLEL_COMPAR]
+    expl: to の下で “prepare … or answer …” 並列＝可。
+```
+
+---
+
+### (2024_pre_2 Q23)
+```db
+set: 2024_pre_2
+question: 23
+correct: e
+label: CONTENT_REVERSE
+explanation: 直前主張と逆。“sufficient” → “insufficient”。
+text:
+  a: will run for at least four years
+  b: we have sent out
+  c: agreed to have their papers assessed
+  d: revealing minor errors
+  e: because current checks are sufficient
+lures:
+  - opt: a
+    tags: [TENSE_ASPECT]
+    expl: launched＋will run の時制整合。
+  - opt: b
+    tags: [WORD_CHOICE]
+    expl: send out＝自然。置換不要。
+  - opt: c
+    tags: [VERB_VALENCY]
+    expl: agree to have O p.p.＝可。
+  - opt: d
+    tags: [ADV_ADJ_FORM]
+    expl: 分詞構文＝許容。
+```
+
+---
+
+### (2024_pre_2 Q24)
+```db
+set: 2024_pre_2
+question: 24
+correct: c
+label: ADV_ADJ_FORM
+sublabels: [VERB_VALENCY, WORD_ORDER]
+explanation: “papers **looked** for” → “**looking** for / **to look** for”。
+text:
+  a: Unpaid peer reviewers are overburdened
+  b: or go through computer code line by line
+  c: published papers looked for errors
+  d: There is no financial compensation for highlighting errors
+  e: can see people marked out as troublemakers
+lures:
+  - opt: a
+    tags: [LEXICAL_NUANCE, ANXIETY_CUE]
+    expl: overburdened＝適切。
+  - opt: b
+    tags: [PARALLEL_COMPAR]
+    expl: examine/comb/go through の並列＝可。
+  - opt: d
+    tags: [PREP_COLLOC]
+    expl: compensation for＝定型。
+  - opt: e
+    tags: [VOICE_PASSIVE, WORD_ORDER]
+    expl: see + O + p.p. の受け身的用法＝可。
+```
+
+---
+
+### (2024_pre_2 Q25)
+```db
+set: 2024_pre_2
+question: 25
+correct: e
+label: VERB_VALENCY
+sublabels: [WORD_ORDER]
+explanation: “make A **part of** B” が定型。“being” 不要。
+text:
+  a: comes at a huge cost
+  b: building their work on an erroneous finding
+  c: run to six figures
+  d: another project is not pursued
+  e: making error detection and correction being part of
+lures:
+  - opt: a
+    tags: [LEXICAL_NUANCE]
+    expl: come at a cost＝定型。
+  - opt: b
+    tags: [PREP_COLLOC, SVA_AGREEMENT]
+    expl: build A on B＝定型。 "their"→singular they の活用。(genderをぼかす)
+  - opt: c
+    tags: [WORD_CHOICE]
+    expl: run to six figures＝自然。
+  - opt: d
+    tags: [VOICE_PASSIVE]
+    expl: 受動は文脈適切。
+```
+
+# 2023
+### (2023_UT Q21)
+```db
+set: 2023_UT
+question: 21
+correct: d
+label: IDIOM_FAKE
+sublabels: [LEXICALIZED_PATTERN]
+explanation: 慣用は **be no exception**。× “The English language **has** no exception …” → “The English language **is** no exception …”
+text:
+  a: one particular language over another
+  b: more neutral **in** a given context **by** certain speakers
+  c: a politically loaded and biased choice
+  d: The English language **has** no exception
+  e: its often unquestioned status as a global lingua franca … make it seem to be such
+lures:
+  - opt: a
+    label: WORD_CHOICE
+    expl: 対比 “one … over another” は定型。問題なし。
+  - opt: b
+    label: PARALLEL_COMPAR
+    expl: “neutral **in** context / **by** speakers” の前置詞切替は自然。後段と表現差があっても×ではない。
+  - opt: c
+    label: WORD_CHOICE
+    expl: “politically loaded and biased” は語法良好。
+  - opt: e
+    label: LEXICAL_NUANCE
+    expl: “often-unquestioned” にハイフン可。“seem to be such” はやや重いが容認。
+```
+
+---
+
+### (2023_UT Q22)
+```db
+set: 2023_UT
+question: 22
+correct: a
+label: VOICE_PASSIVE
+sublabels: [AUX_BE_MISSING]
+explanation: 受動は **has often been portrayed**。× “has often portrayed …”
+text:
+  a: has often portrayed as a 'neutral' medium
+  b: far from a generally 'neutral' medium
+  c: the non-neutral and ambiguous nature of the way
+  d: interpret English ways of speaking
+  e: the least disputed, most defining, and yet insufficiently acknowledged feature
+lures:
+  - opt: b
+    label: LEXICAL_NUANCE
+    expl: far from (a) neutral medium は可。generally の位置も許容。
+  - opt: c
+    label: CONNECTIVE_SYNTAX
+    expl: “nature **of the way** S V” は重いが可。
+  - opt: d
+    label: VERB_VALENCY
+    expl: interpret + N は可。“as a way of speaking” にしなくても成立。
+  - opt: e
+    label: PARALLEL_COMPAR
+    expl: 形容の並列良好。単数 feature でOK。
+```
+
+---
+
+### (2023_UT Q23)
+```db
+set: 2023_UT
+question: 23
+correct: d
+label: ADV_ADJ_FORM
+sublabels: [DERIVATIONAL]
+explanation: 形容詞ではなく副詞が必要。→ “seem**ingly** contradictory positions”
+text:
+  a: to reassess how they view
+  b: attempt to make sense of an ever-changing world
+  c: For linguistic anthropologists there is a benefit in observing
+  d: seeming contradictory positions
+  e: not only in international … but within national boundaries
+lures:
+  - opt: a
+    label: CONNECTIVE_SYNTAX
+    expl: “how they view …” は自然。
+  - opt: b
+    label: IDIOM_REAL
+    expl: make sense of ~ は定型。問題なし。
+  - opt: c
+    label: PREP_COLLOC
+    expl: a benefit **in** V-ing も **to** V-ing も可。in でもOK。
+  - opt: e
+    label: PARALLEL_COMPAR
+    expl: “not only … but (also) …” で **also** は省略可。×ではない。
+```
+
+---
+
+### (2023_UT Q24)
+```db
+set: 2023_UT
+question: 24
+correct: b
+label: SVA_AGREEMENT
+sublabels: [COMPLEX_SUBJECT]
+explanation: 主語は単数 “The coexistence …” → 動詞は **creates**。× “create”
+text:
+  a: are all marked by various levels of competencies …
+  b: The coexistence … **create** complex power dynamics
+  c: were to exclude interactions where …
+  d: is, to some extent, a type of communication
+  e: which serves as the platform of interaction by a group …
+lures:
+  - opt: a
+    label: WORD_CHOICE
+    expl: “levels of competence(s)” は可。複数 “competencies” も容認。
+  - opt: c
+    label: CONNECTIVE_SYNTAX
+    expl: 仮定法の “were to exclude …” は適切な慎重表現。be to の用法OK。
+  - opt: d
+    label: LEXICAL_NUANCE
+    expl: “to some extent” の挿入も構文OK。
+  - opt: e
+    label: PREP_COLLOC
+    expl: “platform **for** interaction” がより自然だが “of” でも意味は通る。“by a group” も受動含意で容認。
+```
+
+---
+
+### (2023_UT Q25)
+```db
+set: 2023_UT
+question: 25
+correct: b
+label: PREP_COLLOC
+sublabels: [NOMINAL_GOVERNMENT]
+explanation: collocation は **impact on** N。× “impact **to** the politics of language”
+text:
+  a: essentially, but not only, about power and ideology
+  b: a fundamental **impact to** the politics of language
+  c: fundamentally based on a dialogue of unequal power relations
+  d: have been discriminated against throughout history
+  e: racial identity politics in **its** multiple forms
+lures:
+  - opt: a
+    label: LEXICAL_NUANCE
+    expl: “essentially, but not only,” は重いが意味明確。×ではない。
+  - opt: c
+    label: WORD_CHOICE
+    expl: “based on a dialogue of …” はやや不自然だが文法的には許容。
+  - opt: d
+    label: PHRASAL_VERB
+    expl: discriminate **against** は定型。前置詞位置もOK。
+  - opt: e
+    label: PRON_REF
+    expl: “politics” を単数概念扱い→ **its** で照応可。冗長ではない。
+```
+
+### (2023_realbattle_1 Q21)
+```db
+set: 2023_realbattle_1
+question: 21
+correct: c
+label: VOICE_PASSIVE
+sublabels: [VERB_VALENCY, TENSE_ASPECT]
+explanation: suffer は自動詞。受動不可→“was suffering from …” が正。
+text:
+  a: developed a cough, which seemed like just a minor inconvenience
+  b: until it got worse
+  c: was suffered from great pain
+  d: begging him to come see her
+  e: her condition had worsened further
+ja:
+  a: せきが出るようになり，ささいな不便に思えた
+  b: それが悪化するまで
+  c: ひどい痛みに「苦しめられた」（×）→苦しんでいた（○）
+  d: 彼に来て診てくれるよう懇願し
+  e: 3日後さらに悪化していた
+lures:
+  - opt: a
+    tags: [LEXICAL_NUANCE, REL_PRONOUN]
+    expl: “which seemed …” は過去形で自然。“had seemed”不要。
+  - opt: b
+    tags: [CONNECTIVE_SYNTAX]
+    expl: until＝継続→転換で適合。
+  - opt: d
+    tags: [VERB_VALENCY, WORD_ORDER]
+    expl: come (and) see＝定型。to追加不要。
+  - opt: e
+    tags: [TENSE_ASPECT]
+    expl: 文中基準点より前を示す過去完了は可。
+```
+
+---
+
+### (2023_realbattle_1 Q22)
+```db
+set: 2023_realbattle_1
+question: 22
+correct: c
+label: PARALLEL_COMPAR
+sublabels: []
+explanation: “as many …” は比較相手が要る。単独なら as を削除。
+text:
+  a: Mill sat alone with her body
+  b: that blessing was mine
+  c: as many words of gratitude to Harriet
+  d: which bears my name
+  e: that was not several times gone through
+ja:
+  a: ミルは彼女の遺体と一人で座っていた
+  b: その祝福は私のものだった
+  c: ハリエットへの多くの感謝の言葉（as不要）
+  d: 私の名を冠する
+  e: 何度も我々で読み通された
+lures:
+  - opt: a
+    tags: [LEXICAL_NUANCE, ANXIETY_CUE]
+    expl: alone with … は語感強めだが可。
+  - opt: b
+    tags: [ARTICLE_DET]
+    expl: that の指示用法は適切。
+  - opt: d
+    tags: [TENSE_ASPECT, REL_PRONOUN]
+    expl: 現在の一般真実→bears（現在形）で自然。
+  - opt: e
+    tags: [SVA_AGREEMENT, TENSE_ASPECT]
+    expl: 単数一致・過去受動は適合。
+```
+
+---
+
+### (2023_realbattle_1 Q23)
+```db
+set: 2023_realbattle_1
+question: 23
+correct: a
+label: SVA_AGREEMENT
+sublabels: []
+explanation: one of + **複数名詞**。document→documents。
+text:
+  a: the founding document of our liberal world order
+  b: whom to marry, where to live, what to believe, what to say
+  c: provided that the person isn't harming anyone else
+  d: the space to live our fullest life
+  e: the rocks upon which we built flourishing nations
+ja:
+  a: 私たちのリベラル秩序の「創設文書の一つ」
+  b: 誰と結婚/どこに住む/何を信じ/何を言うか
+  c: 他者に害を与えない限り
+  d: 最も充実した人生を送るための余地
+  e: 私たちが国家を築いた岩（基盤）の上に
+lures:
+  - opt: b
+    tags: [VERB_VALENCY]
+    expl: 疑問詞+不定詞の対応は正。
+  - opt: c
+    tags: [VERB_VALENCY]
+    expl: harm は他動。構文正。
+  - opt: d
+    tags: [WORD_ORDER]
+    expl: 不定詞の形容詞用法で正。
+  - opt: e
+    tags: [REL_PRONOUN]
+    expl: 前置詞+関係代名詞（upon which）＝正。
+```
+
+---
+
+### (2023_realbattle_1 Q24)
+```db
+set: 2023_realbattle_1
+question: 24
+correct: c
+label: PRON_REF
+sublabels: [VERB_VALENCY]
+explanation: 主語we＝目的語も自分→us→**ourselves**。
+text:
+  a: The liberalism that the Mills advocated
+  b: greet a great variety of social types
+  c: throw us into the messy clash of ideas
+  d: that we defend when we back one country in a fight against another
+  e: to those who would impose speech codes
+ja:
+  a: ミル夫妻が提唱したリベラリズム
+  b: 多様な人々に出会う
+  c: 私たちを（×）→自分たち自身を思想の混戦へ投げ込む
+  d: 我々が一国を支持して他国と戦うとき守るもの
+  e: 言論規制を課そうとする者たちへ
+lures:
+  - opt: a
+    tags: [REL_PRONOUN]
+    expl: 目的格that＝可。
+  - opt: b
+    tags: [PARALLEL_COMPAR]
+    expl: walk と greet の並列は正。
+  - opt: d
+    tags: [CONNECTIVE_SYNTAX]
+    expl: 強調構文 It is … that の内側として自然。
+  - opt: e
+    tags: [PREP_COLLOC]
+    expl: stand up to ～ / to those ～ の並列一致。
+```
+
+---
+
+### (2023_realbattle_1 Q25)
+```db
+set: 2023_realbattle_1
+question: 25
+correct: e
+label: REL_PRONOUN
+sublabels: [TENSE_ASPECT]
+explanation: legacy を先行詞に関係節が必要→“**that has guided** …”。
+text:
+  a: a house overlooking the cemetery
+  b: and filled it with furniture
+  c: for the rest of his life
+  d: him gazing down at her grave from the window
+  e: guided humanity another step forward
+ja:
+  a: 墓地を見下ろす家
+  b: その家を彼女が亡くなった部屋の家具で満たし
+  c: 残りの生涯ずっと
+  d: 彼が窓から彼女の墓を見下ろしている
+  e: 人類をもう一歩前へ導いた（→関係節にする）
+lures:
+  - opt: a
+    tags: [ADV_ADJ_FORM]
+    expl: 分詞形容詞 over­looking＝可。
+  - opt: b
+    tags: [PARALLEL_COMPAR]
+    expl: bought と filled の並列＝可。
+  - opt: c
+    tags: [ARTICLE_DET]
+    expl: the rest of his life＝定型。
+  - opt: d
+    tags: [VERB_VALENCY]
+    expl: 動名詞の意味上主語 him は可。
+```
+
