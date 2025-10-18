@@ -2863,3 +2863,4 @@ lures:
     tags: [WORD_CHOICE]
     expl: showy の語義は文脈に適合。句読点のカンマも接続後続があれば許容。
 ```
+
