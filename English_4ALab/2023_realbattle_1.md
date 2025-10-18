@@ -36,3 +36,45 @@ authoritarian 権威主義者
 はでの
 
 (A)の develop は「〈病気の症状が出る:(病気)になる」という意味の他動詞。whichは a cough 「せきの出る状態「病気】」を先行詞とする主格の関係詞が非制限用法で用いられており、seem 「･･･に思われる」が述語動で詞。(b)の until は接続詞で「･･･までずっとついに･･･」という意味。it got worse it は a cough を指しており。 全体で「ついにそれが悪化した」という意味になっている。(d)の begging は分詞構文で、beg Oto-で「○に一するように懇願する」という意味。come see であるが。 come and -「-しに来る」やgo and - 「一しに行く」の and はアメリカ英語では省略されることがある。(例) I'll come get you when it's time. 「時間になったら迎えに来るよ」 seeはここでは「･･･を診る」という意味。(e)は worsen 「悪化する」が過去完了形で用いられており、「3 ・日後の時点で彼女の状態がすでに悪化してしまっていた」ということを示している。further は farの比較級で -「〈程度が)さらに」という
+
+
+s
+
+正解は(c)。[as many words of gratitude to Harriet →many words of gratitude to Harriet]
+
+(c)に含まれるasは副詞で「同じくらい」という意味になるが、ここで「ハリエットへの同じくらい多くの感謝の言気」としても、比較の対象となるものが文脈上存在しないため、不自然である。そこでasを削除すると、「ハリエットへの多くの感謝の言葉」となり、自然な文意となる。
+
+(a)の aloneは「1人で ただ･･･だけで」という意味。 また、ここでのbodyは「死体遺体」という意味。(b) that blessing that は指示形容詞で、「(ハリエットと一緒にいた7年半の間を指して)あの幸せ」という意味。
+
+(d)) which は anything else を先行詞とする主格の関係代名詞であり、bears が述語動詞。ここでのbearは「(名前・称号〉を持つ」という意味であり、ミルの発話時点での内容であるため、発話内では現在形が適切である。
+
+(e)) that は a sentence を先行詞とする主格の関係代名詞で、was が述語動詞。go throughは「･･･を詳しく検討する」という意味の句動詞であり、ここでは他動詞として扱われ受動態で用いられている。several timesは「何度も」という意味であるが、過去の出来事を述べている文であり、時制は過去形が適切である。
+
+23 正解は(a)。[the founding document of our liberal world order the founding documents of our liberal world order]
+
+(a)に含まれる the founding document の前には one of があり、全体で「創設に関わる文書のうちの1つ」という意味になっている。このような「･･･のうちの1つ」という意味の one of の後に来る名詞は複数形でなければならないので、document & documents とする必要がある。
+
+(b)では(疑問詞+不定詞〉の表現が3つ出てきており、 「他動詞のmarryは疑問代名詞のwhomと、自動詞の live は疑問副詞のwhereと、他動詞の believe は疑問代名詞の what とともに用いられ、それぞれ「誰と結婚す
+
+るべきか」「どこに住むべきか」「何を信じるべきか」という意味になっている。(c)の provided that... は接続詞として用いられ、「･･･である場合に限り･･･という条件で」という意味。isn't harming harm は「･･･を害する」 という意味の他動詞であり、全体で「その人が他の誰かを害していない限り」となる。(d)の to live our fullest lifeという不定詞句は「最も充実した生活を送るための」 という意味であり、直前の the space を修飾する形容詞用法である。(e)の upon which は the rocks を先行詞とする関係代名詞 which が前置詞とともに用いられている。文全体を2文に分けた場合、関係詞節は we built flourishing nations upon the rocks 「私たちはその礎の上
+
+に繁栄する国家を築いた」となり、適切であると24 正解は(c)。[throw us into the messy clash of ideas →throw ourselves into the messy clash of ideas]
+
+(c)に含まれる throw us の主語は weであり、主語と目的語が一致していて、投げる対象が他者ではなく自分自身であるため、目的語には再帰代名詞 ourselves を用いる必要がある。
+
+(a)) that は The liberalism を先行詞とする目的格の関係代名詞であり、他動詞 advocate 「･･･を提唱する」の目的語になっている。また、the Millsは「ミル夫妻」と
+
+いう意味。(b)の greet の主語はweであり、等位接続詞 and によって walkと並列されている。a great variety of... は 「非常に多種多様な･･･」という意味。また、type はここでは「･･･な〉タイプの人」という意味で用いられ
+
+ている。(d)の that は文頭の It is と合わせて強調構文を構成しており、we defend this liberalism という文がもとになっている。また、backは他動詞で「･･･を支持する」
+
+という意味。(e)のtoは前にある stand up to 「･･･に立ち向かう」のtoと並列されている。whoはthoseを先行詞とする主格の関係代名詞である。また、would imposeでは、仮定の意味が込められて would が用いられている。
+
+our liberal our liberal
+
+(25) 正解は(e)。[guided humanity another step forward →that has guided humanity another step forward]
+
+(e)の直前は the couple (S) left (V) us (O) an intellectual legacy (O)という構造で、その後にguided が続いている。 このguided を動詞の過去形だと考えると、1つの節内に動詞が2つあることになり、不適切である。また、これを過去分詞と考えたとしても、その後に humanityという目的語が続くのはおかしい。この guided の前に主格の関係代名詞を置くと、適切な文構造となる。加えて、 意味的に「人類を導いた」のは過去の出来事ではなく、 現在も含めてのことであるため、時制を現在完了形にして that has guided とすれば適切な形となる。another step forward は「もう一歩先に」という意味。
+
+(a)の overlooking は a houseを修飾する分詞の形容詞用法で、overlookは「･･･を見下ろす」という意味の他動詞。(b)のfilled は等位接続詞 and によって前のbought と並列されている (fill O with... で「○を･･･で満たす[埋を指している。めつくす]」という意味)。itはahouse (c)の the rest は「残り」という意味で、全体で「彼の人生の残りの間」という意味。(d)のhim は動名詞 gazing の意味上の主語として働いており、適切である。
+
