@@ -17,67 +17,193 @@ authoritarian 権威主義者
 
 
 
-(21)1858年10月、ジョン・スチュアート・ミルとその妻ハリエットは、フランスのアヴィニョン付近を旅行していた。彼女はせきが出るようになり、それはほんの少し不便に思えるようなものだったが、ついにはそれが悪化してしまった。まもなくハリエットは激しい痛みに苦しむようになり、眠ることも横になることさえもできなくなった。ミルは必死になってニースの医者に手紙を出し、妻を診察しに来てくれと懇願した。その3日後に彼女の病状はさらに悪化していて、ミルは自分の感じている恐怖を電報で義理の娘に伝えた。ハリエットは11月 3日にホテルの部屋で息を引き取った。
+# OnLiberty_Legacy
+set: 2023_realbattle_1
+title: On Liberty and Its Legacy
+answers: 21-c / 22-c / 23-a / 24-c / 25-e
 
-22ミルは1日中、部屋で彼女の遺体と自分だけで座っていた。彼は結婚生活が失われてしまったことに意気消沈していた。「7年半の間、あの幸せは私のものだった。7年半の間だけだ!」その後の同月中に、彼は出版社に原稿を送ったが、それはハリエットへの多くの感謝の言葉で始まっていた。彼はその後に続けて、彼女は自分のミューズを超えた存在であった、自分の共著者であったと記した。その本は「私の名前を冠する他のどんなものよりも直接的かつ文字通り、私たちの共同制作であった。それというのも、私たちが一緒に何度も詳しく検討することのなかった文は1文たりともないからだ」 と彼は語った。その本の「思考の全体的な様式は、疑いなく彼女のものだった」と彼は続けた。
+---
 
-23その本は「自由論」と名付けられた。それは私たちの自由主義的な世界秩序の創設に関わる文書のうちの 1つである。ミル夫妻は、個人は自分自身の人生の設計者となる権利を持ち、誰と結婚するべきか、どこに住むべきか、何を信じるべきか、何を言うべきかを選ぶ権利を持っていると主張した。その人が他の誰かを害していない限り、国家は市民個人の選択の自由を侵す権利を持たない。このような方針に基づいて組織された社会は、 多様性に富む創造的で大胆な個人を生み出すとミル夫妻は期待した。あなたは私の生き方に賛同する必要はなく、私もあなたの生き方に賛同する必要はないのだが、お互いに最も充実した生活を送るための空間を与え合うのである。個人の自律と選択の自由は、私たちが繁栄する国家を築く礎となるだろう。
+### (2023_realbattle_1 Q21)
+```db
+set: 2023_realbattle_1
+question: 21
+correct: c
+label: VOICE_PASSIVE
+sublabels: [VERB_VALENCY, TENSE_ASPECT]
+explanation: suffer は自動詞。受動不可→“was suffering from …” が正。
+text:
+  a: developed a cough, which seemed like just a minor inconvenience
+  b: until it got worse
+  c: was suffered from great pain
+  d: begging him to come see her
+  e: her condition had worsened further
+ja:
+  a: せきが出るようになり，ささいな不便に思えた
+  b: それが悪化するまで
+  c: ひどい痛みに「苦しめられた」（×）→苦しんでいた（○）
+  d: 彼に来て診てくれるよう懇願し
+  e: 3日後さらに悪化していた
+lures:
+  - opt: a
+    tags: [LEXICAL_NUANCE, REL_PRONOUN]
+    expl: “which seemed …” は過去形で自然。“had seemed”不要。
+  - opt: b
+    tags: [CONNECTIVE_SYNTAX]
+    expl: until＝継続→転換で適合。
+  - opt: d
+    tags: [VERB_VALENCY, WORD_ORDER]
+    expl: come (and) see＝定型。to追加不要。
+  - opt: e
+    tags: [TENSE_ASPECT]
+    expl: 文中基準点より前を示す過去完了は可。
+```
 
-ミル人妻が提唱した自由主義を、今日私たちは街を歩いていて非常に多種多様な社会的なタイプの人々に接しながら享受している。インターネットにアクセスして思想がめちゃくちゃにぶつかり合うところに身を投じながらも、私たちはそれを享受しているのである。他国と戦っているある国を支持するとき、右派や左派の権威主義者に立ち向かうとき、言論規制を課し、書籍を禁止し、選挙を妨害しようとする人々に立ち向かうとき、私たちが守っているのはまさにこの自由主義なのである。
+---
 
-29原稿を送った後、ミルはハリエットが埋葬された墓地を見下ろす家を買い、その家を彼女が亡くなった部屋の家具で埋めつくした。彼はその家を生涯にわたって毎訪れた。彼が窓から彼女の墓を見つめる姿は、想像すると悲しい光景だが、その夫妻は人類を文明の進歩のもう一歩先に導く知的遺産を、私たちに残したのである。
+### (2023_realbattle_1 Q22)
+```db
+set: 2023_realbattle_1
+question: 22
+correct: c
+label: PARALLEL_COMPAR
+sublabels: []
+explanation: “as many …” は比較相手が要る。単独なら as を削除。
+text:
+  a: Mill sat alone with her body
+  b: that blessing was mine
+  c: as many words of gratitude to Harriet
+  d: which bears my name
+  e: that was not several times gone through
+ja:
+  a: ミルは彼女の遺体と一人で座っていた
+  b: その祝福は私のものだった
+  c: ハリエットへの多くの感謝の言葉（as不要）
+  d: 私の名を冠する
+  e: 何度も我々で読み通された
+lures:
+  - opt: a
+    tags: [LEXICAL_NUANCE, ANXIETY_CUE]
+    expl: alone with … は語感強めだが可。
+  - opt: b
+    tags: [ARTICLE_DET]
+    expl: that の指示用法は適切。
+  - opt: d
+    tags: [TENSE_ASPECT, REL_PRONOUN]
+    expl: 現在の一般真実→bears（現在形）で自然。
+  - opt: e
+    tags: [SVA_AGREEMENT, TENSE_ASPECT]
+    expl: 単数一致・過去受動は適合。
+```
 
-【設問解説】
+---
 
-20 正解は(c)。[was suffered from great pain was suffering from great pain]
+### (2023_realbattle_1 Q23)
+```db
+set: 2023_realbattle_1
+question: 23
+correct: a
+label: SVA_AGREEMENT
+sublabels: []
+explanation: one of + **複数名詞**。document→documents。
+text:
+  a: the founding document of our liberal world order
+  b: whom to marry, where to live, what to believe, what to say
+  c: provided that the person isn't harming anyone else
+  d: the space to live our fullest life
+  e: the rocks upon which we built flourishing nations
+ja:
+  a: 私たちのリベラル秩序の「創設文書の一つ」
+  b: 誰と結婚/どこに住む/何を信じ/何を言うか
+  c: 他者に害を与えない限り
+  d: 最も充実した人生を送るための余地
+  e: 私たちが国家を築いた岩（基盤）の上に
+lures:
+  - opt: b
+    tags: [VERB_VALENCY]
+    expl: 疑問詞+不定詞の対応は正。
+  - opt: c
+    tags: [VERB_VALENCY]
+    expl: harm は他動。構文正。
+  - opt: d
+    tags: [WORD_ORDER]
+    expl: 不定詞の形容詞用法で正。
+  - opt: e
+    tags: [REL_PRONOUN]
+    expl: 前置詞+関係代名詞（upon which）＝正。
+```
 
-(c)に含まれる sufferは、自動詞として用いて suffer from...で「病気など)で苦しむ」という意味になるので、受動態にすることはできない。ここでは過去におけつ る一時的な状態を表しているので、 was sufferingと過去進行形にする必要がある。
+---
 
-はでの
+### (2023_realbattle_1 Q24)
+```db
+set: 2023_realbattle_1
+question: 24
+correct: c
+label: PRON_REF
+sublabels: [VERB_VALENCY]
+explanation: 主語we＝目的語も自分→us→**ourselves**。
+text:
+  a: The liberalism that the Mills advocated
+  b: greet a great variety of social types
+  c: throw us into the messy clash of ideas
+  d: that we defend when we back one country in a fight against another
+  e: to those who would impose speech codes
+ja:
+  a: ミル夫妻が提唱したリベラリズム
+  b: 多様な人々に出会う
+  c: 私たちを（×）→自分たち自身を思想の混戦へ投げ込む
+  d: 我々が一国を支持して他国と戦うとき守るもの
+  e: 言論規制を課そうとする者たちへ
+lures:
+  - opt: a
+    tags: [REL_PRONOUN]
+    expl: 目的格that＝可。
+  - opt: b
+    tags: [PARALLEL_COMPAR]
+    expl: walk と greet の並列は正。
+  - opt: d
+    tags: [CONNECTIVE_SYNTAX]
+    expl: 強調構文 It is … that の内側として自然。
+  - opt: e
+    tags: [PREP_COLLOC]
+    expl: stand up to ～ / to those ～ の並列一致。
+```
 
-(A)の develop は「〈病気の症状が出る:(病気)になる」という意味の他動詞。whichは a cough 「せきの出る状態「病気】」を先行詞とする主格の関係詞が非制限用法で用いられており、seem 「･･･に思われる」が述語動で詞。(b)の until は接続詞で「･･･までずっとついに･･･」という意味。it got worse it は a cough を指しており。 全体で「ついにそれが悪化した」という意味になっている。(d)の begging は分詞構文で、beg Oto-で「○に一するように懇願する」という意味。come see であるが。 come and -「-しに来る」やgo and - 「一しに行く」の and はアメリカ英語では省略されることがある。(例) I'll come get you when it's time. 「時間になったら迎えに来るよ」 seeはここでは「･･･を診る」という意味。(e)は worsen 「悪化する」が過去完了形で用いられており、「3 ・日後の時点で彼女の状態がすでに悪化してしまっていた」ということを示している。further は farの比較級で -「〈程度が)さらに」という
+---
 
-
-s
-
-正解は(c)。[as many words of gratitude to Harriet →many words of gratitude to Harriet]
-
-(c)に含まれるasは副詞で「同じくらい」という意味になるが、ここで「ハリエットへの同じくらい多くの感謝の言気」としても、比較の対象となるものが文脈上存在しないため、不自然である。そこでasを削除すると、「ハリエットへの多くの感謝の言葉」となり、自然な文意となる。
-
-(a)の aloneは「1人で ただ･･･だけで」という意味。 また、ここでのbodyは「死体遺体」という意味。(b) that blessing that は指示形容詞で、「(ハリエットと一緒にいた7年半の間を指して)あの幸せ」という意味。
-
-(d)) which は anything else を先行詞とする主格の関係代名詞であり、bears が述語動詞。ここでのbearは「(名前・称号〉を持つ」という意味であり、ミルの発話時点での内容であるため、発話内では現在形が適切である。
-
-(e)) that は a sentence を先行詞とする主格の関係代名詞で、was が述語動詞。go throughは「･･･を詳しく検討する」という意味の句動詞であり、ここでは他動詞として扱われ受動態で用いられている。several timesは「何度も」という意味であるが、過去の出来事を述べている文であり、時制は過去形が適切である。
-
-23 正解は(a)。[the founding document of our liberal world order the founding documents of our liberal world order]
-
-(a)に含まれる the founding document の前には one of があり、全体で「創設に関わる文書のうちの1つ」という意味になっている。このような「･･･のうちの1つ」という意味の one of の後に来る名詞は複数形でなければならないので、document & documents とする必要がある。
-
-(b)では(疑問詞+不定詞〉の表現が3つ出てきており、 「他動詞のmarryは疑問代名詞のwhomと、自動詞の live は疑問副詞のwhereと、他動詞の believe は疑問代名詞の what とともに用いられ、それぞれ「誰と結婚す
-
-るべきか」「どこに住むべきか」「何を信じるべきか」という意味になっている。(c)の provided that... は接続詞として用いられ、「･･･である場合に限り･･･という条件で」という意味。isn't harming harm は「･･･を害する」 という意味の他動詞であり、全体で「その人が他の誰かを害していない限り」となる。(d)の to live our fullest lifeという不定詞句は「最も充実した生活を送るための」 という意味であり、直前の the space を修飾する形容詞用法である。(e)の upon which は the rocks を先行詞とする関係代名詞 which が前置詞とともに用いられている。文全体を2文に分けた場合、関係詞節は we built flourishing nations upon the rocks 「私たちはその礎の上
-
-に繁栄する国家を築いた」となり、適切であると
-
-
-24 正解は(c)。[throw us into the messy clash of ideas →throw ourselves into the messy clash of ideas]
-
-(c)に含まれる throw us の主語は weであり、主語と目的語が一致していて、投げる対象が他者ではなく自分自身であるため、目的語には再帰代名詞 ourselves を用いる必要がある。
-
-(a)) that は The liberalism を先行詞とする目的格の関係代名詞であり、他動詞 advocate 「･･･を提唱する」の目的語になっている。また、the Millsは「ミル夫妻」と
-
-いう意味。(b)の greet の主語はweであり、等位接続詞 and によって walkと並列されている。a great variety of... は 「非常に多種多様な･･･」という意味。また、type はここでは「･･･な〉タイプの人」という意味で用いられ
-
-ている。(d)の that は文頭の It is と合わせて強調構文を構成しており、we defend this liberalism という文がもとになっている。また、backは他動詞で「･･･を支持する」
-
-という意味。(e)のtoは前にある stand up to 「･･･に立ち向かう」のtoと並列されている。whoはthoseを先行詞とする主格の関係代名詞である。また、would imposeでは、仮定の意味が込められて would が用いられている。
-
-our liberal our liberal
-
-(25) 正解は(e)。[guided humanity another step forward →that has guided humanity another step forward]
-
-(e)の直前は the couple (S) left (V) us (O) an intellectual legacy (O)という構造で、その後にguided が続いている。 このguided を動詞の過去形だと考えると、1つの節内に動詞が2つあることになり、不適切である。また、これを過去分詞と考えたとしても、その後に humanityという目的語が続くのはおかしい。この guided の前に主格の関係代名詞を置くと、適切な文構造となる。加えて、 意味的に「人類を導いた」のは過去の出来事ではなく、 現在も含めてのことであるため、時制を現在完了形にして that has guided とすれば適切な形となる。another step forward は「もう一歩先に」という意味。
-
-(a)の overlooking は a houseを修飾する分詞の形容詞用法で、overlookは「･･･を見下ろす」という意味の他動詞。(b)のfilled は等位接続詞 and によって前のbought と並列されている (fill O with... で「○を･･･で満たす[埋を指している。めつくす]」という意味)。itはahouse (c)の the rest は「残り」という意味で、全体で「彼の人生の残りの間」という意味。(d)のhim は動名詞 gazing の意味上の主語として働いており、適切である。
+### (2023_realbattle_1 Q25)
+```db
+set: 2023_realbattle_1
+question: 25
+correct: e
+label: REL_PRONOUN
+sublabels: [TENSE_ASPECT]
+explanation: legacy を先行詞に関係節が必要→“**that has guided** …”。
+text:
+  a: a house overlooking the cemetery
+  b: and filled it with furniture
+  c: for the rest of his life
+  d: him gazing down at her grave from the window
+  e: guided humanity another step forward
+ja:
+  a: 墓地を見下ろす家
+  b: その家を彼女が亡くなった部屋の家具で満たし
+  c: 残りの生涯ずっと
+  d: 彼が窓から彼女の墓を見下ろしている
+  e: 人類をもう一歩前へ導いた（→関係節にする）
+lures:
+  - opt: a
+    tags: [ADV_ADJ_FORM]
+    expl: 分詞形容詞 over­looking＝可。
+  - opt: b
+    tags: [PARALLEL_COMPAR]
+    expl: bought と filled の並列＝可。
+  - opt: c
+    tags: [ARTICLE_DET]
+    expl: the rest of his life＝定型。
+  - opt: d
+    tags: [VERB_VALENCY]
+    expl: 動名詞の意味上主語 him は可。
+```
 
