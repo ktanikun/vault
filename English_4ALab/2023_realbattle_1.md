@@ -17,7 +17,7 @@ authoritarian 権威主義者
 
 
 
-# OnLiberty_Legacy
+# "OnLiberty"_Legacy
 set: 2023_realbattle_1
 title: On Liberty and Its Legacy
 answers: 21-c / 22-c / 23-a / 24-c / 25-e
