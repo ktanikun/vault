@@ -58,7 +58,10 @@ s
 
 るべきか」「どこに住むべきか」「何を信じるべきか」という意味になっている。(c)の provided that... は接続詞として用いられ、「･･･である場合に限り･･･という条件で」という意味。isn't harming harm は「･･･を害する」 という意味の他動詞であり、全体で「その人が他の誰かを害していない限り」となる。(d)の to live our fullest lifeという不定詞句は「最も充実した生活を送るための」 という意味であり、直前の the space を修飾する形容詞用法である。(e)の upon which は the rocks を先行詞とする関係代名詞 which が前置詞とともに用いられている。文全体を2文に分けた場合、関係詞節は we built flourishing nations upon the rocks 「私たちはその礎の上
 
-に繁栄する国家を築いた」となり、適切であると24 正解は(c)。[throw us into the messy clash of ideas →throw ourselves into the messy clash of ideas]
+に繁栄する国家を築いた」となり、適切であると
+
+
+24 正解は(c)。[throw us into the messy clash of ideas →throw ourselves into the messy clash of ideas]
 
 (c)に含まれる throw us の主語は weであり、主語と目的語が一致していて、投げる対象が他者ではなく自分自身であるため、目的語には再帰代名詞 ourselves を用いる必要がある。
 
