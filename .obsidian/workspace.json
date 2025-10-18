@@ -25,13 +25,14 @@
             "id": "1fd559264f9d45e6",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "無題のファイル 2.base",
-                "viewName": "Table"
+                "file": "English_4ALab/database.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "無題のファイル 2"
+              "icon": "lucide-file",
+              "title": "database"
             }
           }
         ],
@@ -196,8 +197,8 @@
   },
   "active": "1fd559264f9d45e6",
   "lastOpenFiles": [
-    "English_4ALab/database.md",
     "無題のファイル 2.base",
+    "English_4ALab/database.md",
     "English_4ALab/2023_toshin_4.md",
     "English_4ALab/2023_toshin_1.md",
     "English_4ALab/2023_realbattle_1.md",
