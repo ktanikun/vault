@@ -21,7 +21,9 @@ cane 藤(とう)
 transshipment 貨物を別の船に積み替えること
 
 
-```# Great Nicobar under Threat
+```
+
+# Great Nicobar under Threat
 set: 2025_toshin_3
 title: Great Nicobar under Threat
 answers: 21-b / 22-e / 23-a / 24-e / 25-d

@@ -19,3 +19,128 @@ BlackBerry カナダの BlackBerry 社のスマートフォン。アメリカ合
 plummet 急落する
 anthropomorphize …を擬人化する
 ```
+
+# Mike Lazaridis and Rethinking
+set: 2025_realbattle_1
+title: Mike Lazaridis and Rethinking
+answers: 21-a / 22-e / 23-c / 24-b / 25-d
+
+---
+
+### (2025_realbattle_1 Q21)
+```db
+set: 2025_realbattle_1
+question: 21
+correct: a
+label: WORD_CHOICE
+sublabels: [LEXICAL_NUANCE]
+explanation: *defined impact* は不自然。→ “a **definite / significant / defining** impact”.
+text:
+  a: has had **a defined impact** on your life
+  b: Mike was something of an electronics wizard
+  c: they called Mike to fix them
+  d: which ended up paying for his first year of college
+  e: Mike did what so many great entrepreneurs of his era would do:
+ja:
+  a: 「**はっきりした／大きな**影響」→ *defined* は語選択ミス
+  b: 「ちょっとした電子の達人だった」
+  c: 「先生たちは直してもらうため彼に電話した」
+  d: 「そのブザーが大学1年の学費を賄った」
+  e: 「当時の多くの起業家がしたことを彼もした」
+```
+
+---
+
+### (2025_realbattle_1 Q22)
+```db
+set: 2025_realbattle_1
+question: 22
+correct: e
+label: PRON_REF
+sublabels: [PHRASAL_VERB, IDIOM_FAKE]
+explanation: 端末を渡す＝**hand it over (to …)**。*hand **him** over* だと「人を引き渡す」の意味になる。
+text:
+  a: he patented a device … which was so useful …
+  b: That was small potatoes compared to his next big invention,
+  c: made his firm the fastest-growing company on the planet.
+  d: with loyal customers ranging from Bill Gates to Christina Aguilera.
+  e: President Obama refused to hand **him** over to the Secret Service.
+ja:
+  a: 「極めて有用で賞を受けた」
+  b: 「それは**大したことない**（慣用）」
+  c: 「会社を最速成長企業にした」
+  d: 「著名人にも熱狂的顧客」
+  e: 「大統領はそれ（端末）を**提出しなかった**べき → **hand it over**」
+```
+
+---
+
+### (2025_realbattle_1 Q23)
+```db
+set: 2025_realbattle_1
+question: 23
+correct: c
+label: PREP_COLLOC
+sublabels: [CONNECTIVE_SYNTAX]
+explanation: 時の導入は **By** が定型。→ “**By** the summer of 2009, it accounted …”。*As the summer of 2009* は不可。
+text:
+  a: dreamed up the idea for the BlackBerry
+  b: a wireless communication device for sending and receiving emails
+  c: **As** the summer of 2009, it
+  d: accounted for nearly half of the U.S. smartphone market.
+  e: to less than 1 percent.
+ja:
+  a: 「着想を思いついた」
+  b: 「送受信用の無線機器として」
+  c: 「**2009年夏までに** が正」
+  d: 「米国市場の**ほぼ半分**を占めた」
+  e: 「1％未満へと落ちた」
+```
+
+---
+
+### (2025_realbattle_1 Q24)
+```db
+set: 2025_realbattle_1
+question: 24
+correct: b
+label: PREP_COLLOC
+sublabels: [VERB_VALENCY]
+explanation: **adapt to** a changing environment が定型。本文は前置詞欠落（*adapting a changing environment*）。
+text:
+  a: we can never pinpoint a single cause of its downfall,
+  b: adapting **a** changing environment isn’t something a company does
+  c: in the multitude of decisions they make every day.
+  d: his thinking may have been the spark that ignited the smartphone revolution,
+  e: his struggles with rethinking ended up sucking the oxygen out of his company
+ja:
+  a: 「唯一の原因は特定できない」
+  b: 「**変化する環境に適応する**こと」（**to** が必要）
+  c: 「人々が日々下す無数の決定の中で」
+  d: 「彼の思考が火付け役だったかもしれない」
+  e: 「再考の不全が会社の“酸素”を吸い尽くした」
+```
+
+---
+
+### (2025_realbattle_1 Q25)
+```db
+set: 2025_realbattle_1
+question: 25
+correct: d
+label: PARALLEL_COMPAR
+sublabels: [WORD_ORDER]
+explanation: “spend **as much time rethinking as** (we do) **thinking**”。後半は動詞省略または **do** 受け。*are thinking* は非並列。
+text:
+  a: in staying true to our beliefs and opinions
+  b: where we get rewarded for having conviction in our ideas
+  c: we live in a rapidly changing world,
+  d: spend as much time rethinking as **we are thinking**
+  e: get them out of the shed and remove the rust
+ja:
+  a: 「信念や意見に忠実であることにも」
+  b: 「確信を持つことで報われる場所／状況で」
+  c: 「急速に変化する世界に生きている」
+  d: 「**再考に**思考と同じだけ時間を費やす（*are* ではなく省略 or **do**）」
+  e: 「道具を物置から出し，錆を落とす（比喩）」
+```

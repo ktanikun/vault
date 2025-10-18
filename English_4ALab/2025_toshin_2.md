@@ -23,7 +23,176 @@ nonbinary 男女という範疇に当てはまらない
 sparse まばらな、貧弱な
 dubious 怪しい
 ```
+# Health Myths and Evidence
+set: 2025_toshin_2
+title: Health Myths and Evidence
+answers: 21-e / 22-d / 23-e / 24-d / 25-c
 
-## 21
+---
 
-a: 
+### (2025_toshin_2 Q21)
+```db
+set: 2025_toshin_2
+question: 21
+correct: e
+label: ADV_ADJ_FORM
+sublabels: [WORD_CHOICE]
+explanation: “not **necessarily** more” が正。*necessary*（形容詞）は不可。
+text:
+  a: claim you need to take …
+  b: the scientific basis for popular health claims is often thin.
+  c: is based more on marketing … than science.
+  d: **Data point** to clear benefits …
+  e: but not **necessary** more.
+ja:
+  d: 「データ**は**示す」→ Data は複数主語なので **point** 自体は複数形と一致（動詞形は正）。  
+  e: 「必ずしもそれ以上ではない」→ **necessarily** が必要。
+lures:
+  - opt: a
+    label: VERB_VALENCY
+    expl: claim (that) S V / claim you need to … は可。
+  - opt: b
+    label: ARTICLE_DET
+    expl: basis for A は自然。可。
+  - opt: c
+    label: PREP_COLLOC
+    expl: be based **on** A … than B＝定型。
+  - opt: d
+    label: SVA_AGREEMENT
+    expl: Data＝複数。**point**（原形）=複数一致で正。単数扱いに引っ張る誘導。
+```
+
+---
+
+### (2025_toshin_2 Q22)
+```db
+set: 2025_toshin_2
+question: 22
+correct: d
+label: PREP_COLLOC
+sublabels: [PHRASAL_VERB]
+explanation: “reach **for** sodas” が定型。*reach to* は不可。
+text:
+  a: Often popular wisdom turns out to be only sort of true.
+  b: The emphasis on so many steps is one instance.
+  c: let yourself get too thirsty
+  d: may be tempted to **reach to** sodas
+  e: shouldn’t worry if we drink only six.
+ja:
+  a: 「まぁ本当の部分もある」＝自然。
+  b: 「〜歩の強調」＝文法的に可。
+  d: 「ソーダに**手を伸ばす**」→ **for** が必要。
+  e: 「6杯でも**気にする必要はない**」＝可。*be worried* でなくてよい。
+lures:
+  - opt: a
+    label: LEXICAL_NUANCE
+    expl: only sort of true は口語的だが容認。
+  - opt: b
+    label: SVA_AGREEMENT
+    expl: emphasis（単数） + is で整合。
+  - opt: c
+    label: IDIOM_REAL
+    expl: let yourself get too thirsty＝可。
+  - opt: e
+    label: MODAL_USAGE
+    expl: shouldn’t worry if … で十分。受動 *be worried* 不要。
+```
+
+---
+
+### (2025_toshin_2 Q23)
+```db
+set: 2025_toshin_2
+question: 23
+correct: e
+label: WORD_CHOICE
+sublabels: [PARALLEL_COMPAR]
+explanation: **the latter**（後者）が正。*the later* は時系列の「後で」。
+text:
+  a: to dig a bit into …
+  b: often heard health maxims
+  c: a nugget of truth that has become seriously exaggerated
+  d: stems from outdated and poorly applied evidence
+  e: The **later** is what happened …
+ja:
+  e: 「後者の方が起きた」→ **latter** 必要。
+lures:
+  - opt: a
+    label: PHRASAL_VERB
+    expl: dig into … は可。
+  - opt: b
+    label: ADV_ADJ_FORM
+    expl: often-heard に連結ハイフンがより自然だが文法×ではない。
+  - opt: c
+    label: PARTICIPLE
+    expl: has become seriously exaggerated＝可。
+  - opt: d
+    label: VERB_VALENCY
+    expl: stem from … ＝定型。
+```
+
+---
+
+### (2025_toshin_2 Q24)
+```db
+set: 2025_toshin_2
+question: 24
+correct: d
+label: PARALLEL_COMPAR
+sublabels: [CORRELATIVE]
+explanation: **either A or B** が正。*either … and …* は非対格。
+text:
+  a: have heard distressing warnings …
+  b: We have been repeatedly told that …
+  c: so people who want children …
+  d: either need to get moving **and** freeze their eggs.
+  e: discussions of it are commonplace …
+ja:
+  d: 「子どもが欲しい人は**〜するか〜するか**」→ **or** 必須。
+lures:
+  - opt: a
+    label: WORD_CHOICE
+    expl: distressing の語義は文脈適合。可。
+  - opt: b
+    label: TENSE_ASPECT
+    expl: 現在完了受動（継続）=可。
+  - opt: c
+    label: CONNECTIVE_SYNTAX
+    expl: so（結果/因果）でも接続上許容。誤りではない。
+  - opt: e
+    label: PREP_COLLOC
+    expl: discussion(s) **of** it で可。about も可だが of で問題なし。
+```
+
+---
+
+### (2025_toshin_2 Q25)
+```db
+set: 2025_toshin_2
+question: 25
+correct: c
+label: CONTENT_REVERSE
+sublabels: [DISCOURSE_LOGIC]
+explanation: 論旨は「30歳以上の**出生率は上昇**していた」。本文は *were going **down*** と逆。→ **were going up**。
+text:
+  a: a 2004 paper based on records from 1670 through 1830
+  b: people are now healthier overall and likely to be more fertile …
+  c: fertility rates for women aged 30 and older **were going down.**
+  d: started to become more common and more clinics began opening
+  e: were being sounded by this growing industry …
+ja:
+  c: 「下がっていた」→ 文脈は「上がっていた」なので反転。
+lures:
+  - opt: a
+    label: DATE_RANGE
+    expl: from … through … の期間表現は可。
+  - opt: b
+    label: LEXICAL_NUANCE
+    expl: healthier overall / more fertile ＝自然。
+  - opt: d
+    label: PARALLEL_COMPAR
+    expl: started to become … **and** more clinics began opening＝時制・並列とも許容。
+  - opt: e
+    label: VOICE_PASSIVE
+    expl: be sounded by …（受動）＝比喩的用法で可。
+```
