@@ -79,7 +79,6 @@ lures:
 
 ```
 ### (2024_toshin_1 Q23)
-```
 ```db
 set: 2024_toshin_1
 question: 23
@@ -103,11 +102,11 @@ lures:
   - opt: a  tags: [LEXICAL_NUANCE]  expl: rather のニュアンスで揺さぶるが可。
   - opt: b  tags: [PARALLEL_COMPAR]  expl: better than の比較は可。
   - opt: d  tags: [CONNECTIVE_SYNTAX]  expl: allow … / forbid it の対応は可。
-  - opt: e  tags: [PARALLEL_COMPAR]  expl: can / cannot の対置で迷わせるが可。
-    
+  - opt: e  tags: [PARALLEL_COMPAR]  expl: can / cannot の対置で迷わせるが可。```
+```  
 
 ### (2024_toshin_1 Q24)
-db
+```db
 set: 2024_toshin_1
 question: 24
 correct: e
@@ -131,9 +130,10 @@ lures:
   - opt: b  tags: [LEXICAL_NUANCE]  expl: would＋仮定の語感で迷わせるが可。
   - opt: c  tags: [CONNECTIVE_SYNTAX]  expl: by + V-ing の手段表現で可。
   - opt: d  tags: [TENSE_ASPECT]  expl: did figure out の過去強調で揺さぶるが可。
+```
 
 ### (2024_toshin_1 Q25)
-db
+```db
 set: 2024_toshin_1
 question: 25
 correct: e
@@ -157,3 +157,4 @@ lures:
   - opt: b  tags: [LEXICAL_NUANCE]  expl: 具体描写で注意を逸らすが可。
   - opt: c  tags: [LEXICAL_NUANCE]  expl: sacrifice A for B の型は可。
   - opt: d  tags: [PREP_COLLOC]  expl: shield A from B の固定は正。誤りに見せる。
+```
