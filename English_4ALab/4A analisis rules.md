@@ -33,7 +33,7 @@
   量・否定の射程。Not all / any / no の範囲。
 - **DANGLING_MOD**  
   ぶら下がり修飾（分詞・不定詞の主語不一致）。
-- - **IDIOM_FAKE（イディオム誤用）**
+- **IDIOM_FAKE（イディオム誤用）**
   定義：定型句・句動詞・慣用コロケの**形 or 意味**を誤らせる／“それっぽい偽イディオム”で誘導。
 
 ## B. Lure Labels（ダミー誘導：どう騙すか）
@@ -62,13 +62,15 @@ Error と同名タグをそのまま使用可（原因別分析に一致）。�
 set: <ID>
 question: <21-25>
 correct: <a-e>
-label: <主タグ>
+label: <主タグ, 上から選ぶ> 
 sublabels: [<補助>]
 explanation: <一行>
 text:
   a: <…>  b: <…>  c: <…>  d: <…>  e: <…>
+ja: 
+  a: <translate, 該当部分付近> b:  c: d: e:
 lures:
-  - opt: a  tags: [<…>]  expl: <短く>
+  - opt: a  tags: [<…>]  expl: <短く, 生徒が間違えそうなところを予測>
   - opt: b  tags: [<…>]  expl: <短く>
   - opt: c  tags: [<…>]  expl: <短く>
   - opt: d  tags: [<…>]  expl: <短く>
