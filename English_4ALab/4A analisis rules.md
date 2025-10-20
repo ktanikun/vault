@@ -1,5 +1,5 @@
 
-## A. Error Labels（正解ラベル：何が誤りか）
+## A. Error Labels_A（正解ラベル：何が誤りか）
 - **CONTENT_REVERSE**  
   極性反転。例：slower↔faster, out of↔under。
 - **CONTENT_DRIFT**  
@@ -36,7 +36,19 @@
 - **IDIOM_FAKE（イディオム誤用）**
   定義：定型句・句動詞・慣用コロケの**形 or 意味**を誤らせる／“それっぽい偽イディオム”で誘導。
 
-## B. Lure Labels（ダミー誘導：どう騙すか）
+## B. Eroor Labels_B
+
+ - **CONTENT_REVERSE**  
+  極性反転。例：slower↔faster, out of↔under。
+- **PARALLEL_COMPAR**  
+  並列/比較の崩れ。either–or, as … as, than。
+- **CONTENT_DRIFT**  
+  反対ではない意味ずれ・論理矛盾。例：主語役割の逆転。
+- **LEXICAL_NUANCE**  
+  文法可だが不自然コロケ。例：defined impact→definite impact。
+
+
+## C. Lure Labels（ダミー誘導：どう騙すか）
 Error と同名タグをそのまま使用可（原因別分析に一致）。加えて下記1点を使用。
 
 - **ANXIETY_CUE**  
@@ -70,9 +82,11 @@ text:
 ja: 
   a: <translate, 該当部分付近> b:  c: d: e:
 lures:
-  - opt: a  tags: [<…>]  expl: <短く, 生徒が間違えそうなところを予測>
+  - opt: a  tags: [<ルアーmainタグは基本的にmainタグ+ルアー特有タグ, subtagを自由に追加>]  expl: <短く, 生徒が間違えそうなところを予測>
   - opt: b  tags: [<…>]  expl: <短く>
   - opt: c  tags: [<…>]  expl: <短く>
   - opt: d  tags: [<…>]  expl: <短く>
   - opt: e  tags: [<…>]  expl: <短く>
+    
+    
 ```
