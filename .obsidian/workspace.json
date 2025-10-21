@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1b728e96e4d37f65",
+        "id": "5c16f8d1d144de51",
         "type": "tabs",
         "children": [
           {
-            "id": "716e496c1ef1d63a",
+            "id": "8cd60b6088987332",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "English/English_1A/2024_open_2.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2024_open_2"
+              "title": "新規タブ"
             }
           }
         ]
@@ -181,13 +177,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "716e496c1ef1d63a",
+  "active": "8cd60b6088987332",
   "lastOpenFiles": [
+    "English/English_1A/2024_open_2.md",
     "English/English_1A/2025_open_1.md",
     "English/English_1A/2023_open_2.md",
     "English/English_1A/2023_open_1.md",
     "English/English_1A/2024_open_1.md",
-    "English/English_1A/2024_open_2.md",
     "English/English_4B/2024_open_1.md",
     "English/English_1A",
     "無題のファイル.md",
